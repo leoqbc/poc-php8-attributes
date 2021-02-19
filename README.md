@@ -10,5 +10,5 @@ $ composer dumpautoload
 ```
 
 ### Resolução
-1. Em **master** está o código inicial do projeto, sem implementação
+1. Em **main** está o código inicial do projeto, sem implementação
 2. No branch **feature** coloquei o código realizado do vídeo
