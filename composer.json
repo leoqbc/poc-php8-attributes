@@ -1,0 +1,15 @@
+{
+    "name": "leonardo/miniaula-php8-attributes",
+    "description": "POC de uso de attributes em PHP",
+    "authors": [
+        {
+            "name": "Leonardo Tumadjian",
+            "email": "tumadjian@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
