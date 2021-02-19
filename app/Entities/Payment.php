@@ -2,33 +2,15 @@
 
 namespace App\Entities;
 
-use App\Validation\Exceptions\AttributeException;
+use App\Validation\GreaterThan;
+use App\Validation\LowerThan;
 
 class Payment
 {
-    // Parcelas
+    #[GreaterThan(0), LowerThan(13)]
     protected int $installments;
 
-    // Custo total da compra
+    
+    #[GreaterThan(0)]
     protected float $amount;
-
-    public function setIntallments(int $installments)
-    {
-        if ($installments <= 0) {
-            throw new AttributeException("Installment can be less than 0");
-        }
-
-        if ($installments > 12) {
-            throw new AttributeException("Installment can be greater than 12");
-        }
-        $this->installments = $installments;
-    }
-
-    public function setAmount(float $amount)
-    {
-        if ($amount <= 0) {
-            throw new AttributeException("Amount can be less than 0");
-        }
-        $this->amount = $amount;
-    }
 }

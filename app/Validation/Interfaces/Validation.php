@@ -4,5 +4,5 @@ namespace App\Validation\Interfaces;
 
 interface Validation
 {
-    public function validate(mixed $value): mixed;
+    public function validate(string $propertyName, mixed $value): mixed;
 }
