@@ -2,7 +2,7 @@
 POC do vídeo sobre PHP8 Attributes, refatorando setters para atributos customizados
 
 ### O vídeo live da POC
-(Refatorando validação com Attributes, outra nova feature do PHP 8)[https://youtu.be/npUGI3klQqQ]
+(https://youtu.be/npUGI3klQqQ)[Refatorando validação com Attributes, outra nova feature do PHP 8]
 
 ### Criar o autoloader
 ```bash
